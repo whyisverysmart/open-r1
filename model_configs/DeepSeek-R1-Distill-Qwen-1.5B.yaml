@@ -1,0 +1,7 @@
+model: # Model specific parameters
+  base_params:
+    model_args: "pretrained=deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B,tp_size=1,trust_remote_code=True" # Model args that you would pass in the command line
+  generation: # Generation specific parameters
+    temperature: 0.6
+    top_p: 0.95
+    max_new_tokens: 32768
