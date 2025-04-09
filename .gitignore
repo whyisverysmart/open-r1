@@ -180,5 +180,4 @@ results/
 .vscode/
 .python-version
 
-*.slurm
-.litellm_cache/
+evaluation.slurm
